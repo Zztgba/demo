@@ -7,6 +7,7 @@ public class Demo {
         Object modelInfo = "123";
         try {
 
+            System.out.println();
             if (modelInfo instanceof Class) {
                 System.out.println("-------");
             } else {
